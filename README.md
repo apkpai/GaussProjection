@@ -15,53 +15,8 @@
 ## 如何使用
  
 下载全部代码及图标素材，在Matlab里运行GaussPositiveFormula.m
- 
-### Prerequisites
- 
-What things you need to install the software and how to install them
- 
-```
-Give examples
-```
- 
-### Installing
- 
-A step by step series of examples that tell you how to get a development env running
- 
-Say what the step will be
- 
-```
-Give the example
-```
- 
-And repeat
- 
-```
-until finished
-```
- 
-End with an example of getting some data out of the system or using it for a little demo
- 
-## Running the tests
- 
-Explain how to run the automated tests for this system
- 
-### Break down into end to end tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
-### And coding style tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
+由于程序写的比较仓促，还存在很多不完善的地方和BUG，还望谅解  
+如果您还有更好的建议，望批评指出
 ## Deployment
  
 Add additional notes about how to deploy this on a live system
