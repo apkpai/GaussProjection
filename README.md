@@ -12,9 +12,9 @@
 * 中央子午线经度计算
 * 良好的用户体验及清爽的UI设计
 * etc
-## Getting Started
+## 如何使用
  
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+下载全部代码及图标素材，在Matlab里运行GaussPositiveFormula.m
  
 ### Prerequisites
  
