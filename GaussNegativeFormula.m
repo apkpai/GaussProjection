@@ -1,0 +1,33 @@
+function [B,l] = GaussNegativeFormula(a,b,x,y)
+%GaussNegativeFormula高斯反算
+e=sqrt(a*a-b*b)/a;
+e_s=sqrt(a*a-b*b)/b;
+rou=206265;
+c=a*a/b;
+m0=a*(1-e*e);
+m2=(3/2)*e*e*m0;
+m4=(5/4)*e*e*m2;
+m6=(7/6)*e*e*m4;
+m8=(9/8)*e*e*m6;
+a0=m0+0.5*m2+(3/8)*m4+(5/16)*m6+(35/128)*m8;
+a2=0.5*m2+0.5*m4+(15/35)*m6+(7/16)*m8;
+a4=0.125*m4+(3/16)*m6+(7/32)*m8;
+a6=(1/32)*m6+(1/16)*m8;
+a8=(1/128)*m8;
+Bf=x/a0;
+fun_Bf=-0.5*a2*sin(2*Bf)+0.25*a4*sin(4*Bf)-(1/6)*a6*sin(6*Bf)+0.125*a8*sin(8*Bf);
+Bf_s=(x-fun_Bf)/a0;
+while(Bf_s-Bf>10^-10)
+    Bf=Bf_s;
+    fun_Bf=-0.5*a2*sin(2*Bf)+0.25*a4*sin(4*Bf)-(1/6)*a6*sin(6*Bf)+0.125*a8*sin(8*Bf);
+    Bf_s=(x-fun_Bf)/a0;
+end
+Vf=sqrt(1+e_s*e_s*cos(Bf)*cos(Bf));
+tf=tan(Bf);
+Nf=a*(1-(e*e*sin(Bf)*sin(Bf)))^(-1/2);
+etaf=sqrt(e_s*e_s*cos(Bf)*cos(Bf));
+Mf=a*(1-e^2)*(1-(e^2)*(sin(Bf))^2)^(-3/2);
+B=Bf-tf*y*y/(2*Mf*Nf)+tf*(5+3*tf*tf+etaf*etaf-9*etaf*etaf*tf*tf)*y*y*y*y/(24*Mf*Nf*Nf*Nf)-tf*(61+90*tf*tf+45*tf*tf*tf*tf)*power(y,6)/(720*Mf*power(Nf,5));
+l=y/(Nf*cos(Bf))-(1+2*tf*tf+etaf*etaf)*y*y*y/(6*Nf*Nf*Nf*cos(Bf))+(5+28*tf*tf+24*tf*tf*tf*tf+6*etaf*etaf+8*etaf*etaf*tf*tf)*power(y,5)/(120*power(Nf,5)*cos(Bf));
+end
+
