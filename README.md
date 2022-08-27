@@ -18,10 +18,18 @@
 由于程序写的比较仓促，还存在很多不完善的地方和BUG，还望谅解  
 如果您还有更好的建议，望批评指出
 ## 运行截图
+ DEMO1:https://img.apkpai.cn/imgs/2022/08/704384300d948f46.png  
  
-![DEMO1](https://img.apkpai.cn/imgs/2022/08/704384300d948f46.png)
-![DEMO2](https://img.apkpai.cn/imgs/2022/08/04ea176682ef5cc8.png)
-![DEMO3](https://img.apkpai.cn/imgs/2022/08/9b15839f8f8b4624.png)
+ DEMO2:https://img.apkpai.cn/imgs/2022/08/04ea176682ef5cc8.png  
+ 
+ DEMO3:https://img.apkpai.cn/imgs/2022/08/9b15839f8f8b4624.png  
+ 
+![DEMO1](https://img.apkpai.cn/imgs/2022/08/704384300d948f46.png)  
+
+![DEMO2](https://img.apkpai.cn/imgs/2022/08/04ea176682ef5cc8.png)  
+
+![DEMO3](https://img.apkpai.cn/imgs/2022/08/9b15839f8f8b4624.png)  
+
  
 ## 其他作品
  
