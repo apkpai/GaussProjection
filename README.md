@@ -17,7 +17,7 @@
 下载全部代码及图标素材，在Matlab里运行GaussPositiveFormula.m
 由于程序写的比较仓促，还存在很多不完善的地方和BUG，还望谅解  
 如果您还有更好的建议，望批评指出
-## Deployment
+## 运行截图
  
 Add additional notes about how to deploy this on a live system
  
