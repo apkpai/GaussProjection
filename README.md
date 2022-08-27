@@ -1,4 +1,4 @@
-# GeodesyBasicComputing
+# GeodesyGaussProjection
 基于Matlab的高斯投影坐标批量转化程序
 ## 主要功能
 * 自由选择高斯投影参考椭球（CGCS2000椭球、WGS84椭球、克拉索夫斯基椭球）
