@@ -14,7 +14,7 @@
 * etc
 ## 如何使用
  
-下载全部代码及图标素材，在Matlab里运行GaussPositiveFormula.m  
+下载全部代码及图标素材，在Matlab里运行GeodesyBasicComputing.m  
 由于程序写的比较仓促，还存在很多不完善的地方和BUG，还望谅解    
 如果您还有更好的建议，望批评指出
 ## 运行截图
